@@ -13,13 +13,14 @@ html, body {
 }
 
 body {
-    
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
     position: relative;
     height: 100vh;
-    background-color: green;
 }
 
 section#telefone {
@@ -30,6 +31,13 @@ section#telefone {
 
     height: 627px;
     width: 311px;
-    background-color: blue;
-    background: url('../imagens/frame-iphone.png');
+    background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
